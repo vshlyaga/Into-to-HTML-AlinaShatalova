@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title> Коренные преобразование в СССР в 20-30-ее гг. </title>
+    table {border: 1px dotted grey;}
+    th {
+    padding: 3px;
+    border: 1px dotted grey;}
+    td {
+    padding: 3px;
+    border: 1px dotted grey;}
+    
   </head>
   <body>
     
@@ -23,8 +31,30 @@
     </ol>
     
     <p>Темпы промышленного прироста: </p>
+    
     <table>
-      
+      <tr>
+        <th>Годы</th> <th>План,%</th> <th>Факт,%</th>
+      </tr>
+      <tr>
+        <td>1931/td> <td>31.3</td> <td>22</td>
+      </tr>
+      <tr>
+        <td>1932</td> <td>45</td> <td>25,5</td>
+      </tr>
+      <tr>
+        <td>1933</td> <td>36</td> <td>14,7</td>
+      </tr>
     </table>
+    
+    <form>
+      <fieldset>
+        <legend> Добавить комментарий </legend>
+        <p><label for="name">Имя <em>*</em></label><input type="text" id="name"></p>
+        <p><label for="comment">Комментарий </label><input type="text" id="comment"></p>
+      </fieldset>
+      <p><input type="submit" value="Отправить"></p>
+    </form>
+    
   </body> 
 </html>
